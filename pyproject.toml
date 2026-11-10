@@ -6,7 +6,26 @@ readme = "README.md"
 authors = [
     { name = "Prashil001", email = "151838442+Prashil001@users.noreply.github.com" }
 ]
+license = "MIT"
 requires-python = ">=3.11"
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "developer-tools",
+    "python",
+    "ai",
+    "code-analysis"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
 dependencies = [
     "fastmcp>=4.1.6",
     "httpx>=0.28.1",
@@ -25,3 +44,8 @@ dev = [
     "pytest>=9.2.0",
     "ruff>=0.17.4",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Prashil001/devtoolkit-mcp"
+Repository = "https://github.com/Prashil001/devtoolkit-mcp"
+Issues = "https://github.com/Prashil001/devtoolkit-mcp/issues"

@@ -105,3 +105,4 @@ def analyze_error(error_text: str) -> dict:
         "error_location": error_location,
         "has_traceback": bool(frames)
     }
+
